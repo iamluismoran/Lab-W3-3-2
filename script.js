@@ -5,7 +5,7 @@
 let edad = Number (prompt("¿Cuántos años tienes?"));
 let ciudad = prompt ("¿En qué ciudad vives?").toLowerCase;
 let familiaNumerosa = prompt ("¿Tienes familia numerosa? (si/no)").toLowerCase();
-let respuestaGenio = prompt ("¿Cuál es el resultado de '5' + 4 * 8?");
+let respuestaGenio = prompt ("¿Cuál es el resultado de '5' + 4 * 8?").trim( );
 let esGenio = respuestaGenio === "532";
 
 
